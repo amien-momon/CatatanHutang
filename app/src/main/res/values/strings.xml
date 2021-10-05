@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CatatanHutang</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_nama">Nama</string>
+    <string name="tambah">Tambah</string>
+    <string name="hint_nomor_telepon">Nomor Telepon</string>
+    <string name="hint_alamat">Alamat</string>
+    <string name="update">update</string>
+    <string name="ubah">ubah</string>
+    <string name="todo">TODO</string>
+    <string name="pilih">Pilih</string>
+    <string name="hapus">hapus</string>
+
+    <string name="ya">Ya</string>
+    <string name="tidak">Tidak</string>
+    <string name="produk">Produk</string>
+    <string name="_12_des_2021">12 Des 2021</string>
+    <string name="rp">Rp </string>
+    <string name="_100_000_000">100.000.000</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="rp1">Rp</string>
+
+
+    <string-array name="pilih">
+        <item>Produk</item>
+        <item>Uang</item>
+    </string-array>
+
+
+</resources>

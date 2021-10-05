@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/listUserFragment">
+
+    <fragment
+        android:id="@+id/listUserFragment"
+        android:name="com.momon.catatanhutang.fragment.ListUserFragment"
+        android:label="Dasboard"
+        tools:layout="@layout/fragment_list_user" >
+        <action
+            android:id="@+id/action_listUserFragment_to_addUserFragment"
+            app:destination="@id/addUserFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_listUserFragment_to_listHutangFragment"
+            app:destination="@id/listHutangFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/addUserFragment"
+        android:name="com.momon.catatanhutang.fragment.AddUserFragment"
+        android:label="Tambah User"
+        tools:layout="@layout/fragment_add_user" >
+        <action
+            android:id="@+id/action_addUserFragment_to_listUserFragment"
+            app:destination="@id/listUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listHutangFragment"
+        android:name="com.momon.catatanhutang.fragment.ListHutangFragment"
+        android:label="Detail"
+        tools:layout="@layout/fragment_list_hutang" >
+        <action
+            android:id="@+id/action_listHutangFragment_to_listUserFragment"
+            app:destination="@id/listUserFragment" />
+        <argument
+            android:name="current"
+            app:argType="com.momon.catatanhutang.model.User" />
+        <action
+            android:id="@+id/action_listHutangFragment_to_updateUserFragment"
+            app:destination="@id/updateUserFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_listHutangFragment_to_addHutangFragment"
+            app:destination="@id/addHutangFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <action
+            android:id="@+id/action_listHutangFragment_to_editHutangFragment"
+            app:destination="@id/editHutangFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateUserFragment"
+        android:name="com.momon.catatanhutang.fragment.UpdateUserFragment"
+        android:label="Ubah User"
+        tools:layout="@layout/fragment_update_user" >
+        <action
+            android:id="@+id/action_updateUserFragment_to_listHutangFragment"
+            app:destination="@id/listHutangFragment" />
+        <argument
+            android:name="current"
+            app:argType="com.momon.catatanhutang.model.User" />
+        <action
+            android:id="@+id/action_updateUserFragment_to_listUserFragment"
+            app:destination="@id/listUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addHutangFragment"
+        android:name="com.momon.catatanhutang.fragment.AddHutangFragment"
+        android:label="Tambah Hutang"
+        tools:layout="@layout/fragment_add_hutang" >
+        <action
+            android:id="@+id/action_addHutangFragment_to_listHutangFragment"
+            app:destination="@id/listHutangFragment"
+            app:popUpToInclusive="false" />
+        <argument
+            android:name="current"
+            app:argType="com.momon.catatanhutang.model.User" />
+        <action
+            android:id="@+id/action_addHutangFragment_to_listUserFragment"
+            app:destination="@id/listUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editHutangFragment"
+        android:name="com.momon.catatanhutang.fragment.EditHutangFragment"
+        android:label="Edit Hutang"
+        tools:layout="@layout/fragment_edit_hutang" >
+        <action
+            android:id="@+id/action_editHutangFragment_to_listHutangFragment"
+            app:destination="@id/listHutangFragment" />
+        <argument
+            android:name="current"
+            app:argType="com.momon.catatanhutang.model.Hutang" />
+        <action
+            android:id="@+id/action_editHutangFragment_to_listUserFragment"
+            app:destination="@id/listUserFragment" />
+    </fragment>
+</navigation>

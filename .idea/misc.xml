@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1625" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/drawable/background_icon.xml" value="0.28974358974358977" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/drawable/background_list.xml" value="0.28974358974358977" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/drawable/background_list_hutang.xml" value="0.28974358974358977" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/drawable/background_recycler.xml" value="0.28974358974358977" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/drawable/ic_launcher_background.xml" value="0.28974358974358977" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/drawable/radius.xml" value="0.28974358974358977" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/fragment_add_hutang.xml" value="0.22" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/fragment_add_user.xml" value="0.16" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/fragment_edit_hutang.xml" value="0.15" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/fragment_list_hutang.xml" value="0.1" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/fragment_list_user.xml" value="0.19882246376811594" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/fragment_update_user.xml" value="0.14" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/item_error.xml" value="0.192481884057971" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/item_hutang.xml" value="0.3862359550561798" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/item_user.xml" value="0.16" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/layout/list_pilihan.xml" value="0.192481884057971" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/menu/delete_user.xml" value="0.278125" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/menu/move_menu.xml" value="0.278125" />
+        <entry key="..\:/Android/latihan/CatatanHutang/app/src/main/res/menu/update_user.xml" value="0.278125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
